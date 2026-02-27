@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login and Registration Form</title>
+</head>
+<body>
+    <h1>Student Login and Registration Form</h1>
+    <hr>
+    <!--Registration form-->
+    <form>
+        <label>Username: </label><br>
+        <input type="text" placeholder="Enter your name" required><br><br>
+        <label>Email: </label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+        <label>Phone number: </label><br>
+        <input type="number" placeholder="Enter your number" required><br><br>
+        <label>Password: </label><br>
+        <input type="password" placeholder="Create a password" required minlength="8"><br><br>
+        <label>Gender: </label><br>
+        <input type="radio" name="gender" value="Male" required>Male
+        <input type="radio" name="gender" value="Female" required>Female
+        <input type="radio" name="gender" value="Other" required>Others<br><br>
+        <label>Date of Birth: </label><br>
+        <input type="date" placeholder="Enter your dob" required><br><br>
+        <label>Courses: </label><br><br>
+        <select name="Course">
+            <option value="">--Select Course--</option>
+            <option>BE</option>
+            <option>BTech</option>
+            <option>BCA</option>
+            <option>BSC</option>
+        </select><br><br>
+        <label>Address: </label><br><br>
+        <textarea name="Address" rows="10" cols="20" placeholder="Enter your address"></textarea><br><br>
+        <input type="checkbox" required>
+        <label>"I agree to the terms & conditions"</label><br><br>
+        <button type="Submit">Register</button>
+        <button type="Reset">Clear</button>
+        <br>
+    </form>
+    <br><br>
+     <hr>
+    <!--Login form-->
+    <h1>Login form</h1>
+    <form>
+        <label> </label><input type="email" placeholder="Email" required><br><br>
+        <label> </label><input type="password" placeholder="Password" required><br><br>
+        <label> </label><input type="checkbox" required> 
+        <label>Remember me</label><br>
+        <label><a href="#">Forgot password?</a></label><br><br>
+        <button type="Login">Login</button><br>
+        <h4>Don't have an account?Signup</h4>
+        <h2>Or</h2>
+        <button type="Login">Login with Faceook</button><br><br>
+        <button type="Login">Login with Google</button>   
+    </form>
+</body>
+</html>
